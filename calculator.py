@@ -1,7 +1,8 @@
-def calculate(a, op, b):
-    return eval(f"{a}{op}{b}")
+def add(a,b):
+    return (a + b)
+# a = int(input("First number: "))
+# operator = input("OP: ")
+# b = int(input("Second number: "))
+# if operator == "+":
+#     print(add(a, b))
 
-a = int(input("First number: "))
-op = input("Operation: ")
-b = float(input("Second number: "))
-print(f"Result: {calculate(a, op, b)}")
