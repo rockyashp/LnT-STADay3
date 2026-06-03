@@ -12,6 +12,7 @@ jobs:
 
       - name: Install Dependencies
         run: pip install pytest
+             pip install pylint
 
       - name: Run tests
         run: pytest
